@@ -1,0 +1,68 @@
+
+1.Go to Jenkins site (https://jenkins.io/)
+
+2.click on Download Jenkins 
+3.download LTS Release 2.7.1.war  file 
+4.After download  Put Jenkins.war file in Desktop
+
+5.Open Command Prompt 
+--->cd Desktop  ---> click enter
+--->java -jar jenkins.war  --->click enter
+Wait upto Jenkins Fully Load and Running (finished download metadata)
+
+6.Open Browser -->enter localhost:8080  --->click enter
+7.copy the password location path Shown in red colour (For Exp  : C:\Users\sree\.jenkins\secrets\initialAdminPassword)
+8.Open run Paste the Path --->open with Notepad -->copy the password and paste it in Administrator password filed in Jenkins page
+
+8.click on Continue 
+9.click on Install suggested plugins
+10.Wait up to all plugins loading
+
+11.create username and password for jenkins 
+12.Jenkins DashBoad  will display
+
+13.Click on New Item
+14.Enter Build name for Project
+15.Select freeStyleProject--->click ok
+16.Go to Build Triggers--->Select Build periodically
+17.give time Schedule (for Exp: MINUTE HOUR DOM MONTH DOW)
+18.Go to Build---->select Windows Batch command
+
+# Creating Jar file For Java Program
+19.Go to eclipse --Click on Project 
+20.Right click on selenium program ---->click on Export--> go to java and expand it----->click java runnable jar---->give export destination to desktop with Name----click Finish
+21.jar file will create on desktop
+
+23.Go to Windows batch command 
+24.give command ---->java -jar Path of Jar file (C:\users\desktop\project.jar)
+
+25.Go to Post-build Actions--->cick on Add post-build action.--->click on Email notification
+26. give Email (Receiver mail)
+
+# Email Configuration
+27.Go to Jenkins Dashboard
+--->click on jenkins
+---> click on manage jenkins
+28.-->click on configure system
+29.Go to E-mail notification
+SMPT server : smtp.gmail.com (company will provide their smtp server)
+30.click on Advanced
+31.click on check box   Use SMTP Authentication
+32.Give email address  and password  
+33.use ssl check box click
+
+34.SMTP POrt  465  ( for gmail)
+
+35.click  check box Test configuration by sending test e-mail
+36.Give Test e-mail recipient (email address for checking)
+37. click on test configfuration
+38. sent successful message will display 
+
+39.---->apply----->save
+
+
+
+
+
+ 
+ 

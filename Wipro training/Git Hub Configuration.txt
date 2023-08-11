@@ -1,0 +1,37 @@
+#Create github Account
+
+1.Go to GitHub site(https://github.com/) 
+
+2.Create github account (Verify github account in ur Email )
+
+3.Go to Git site (https://git-scm.com/)
+
+4.Download git  (Latest source Release 2.9.2 For Windows)
+5.Install git (double click on git Next...next....)
+
+6.After Installation Go to All Programs ---->click on Git Folder
+7.Click on gitBash ( Linux command prompt will open)
+
+8.Give
+--->cd C:/project (Ur Project folder path)--->click enter
+9.----->git init--->click Enter
+10.---->git add . ----->click Enter
+11.---->git commit -m "(comments)"--->click Enter
+
+12.Go to GitHub site Login with your Github account
+
+13.Click on Start a Project
+14.Give repositoryName(for Exp:MyProject)
+15.click on Create Repository
+
+16.go to "push an existing repository from the command line"
+17.copy first Command (Like : git remote add origin https://github.com/srinu473/pp.git)
+18.paste it in GitBash command prompt---> click enter
+19.copy Second  command (Like : git push -u origin master)
+20.paste it in GitBash command prompt---> click enter
+21.Ask for Github Username and password (give github username and password click enter)
+22.Upload will start  wait 100% upload
+23.go to github account ---->open Repositories Will See your Project in git hub
+
+24.to download project frome github --> click on project-->click on  Clone or Download -->click on download zip  (it downloading ) 
+ 
